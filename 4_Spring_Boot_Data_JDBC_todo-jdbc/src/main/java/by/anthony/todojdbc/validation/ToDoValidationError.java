@@ -1,4 +1,4 @@
-package by.anthony.todo.validation;
+package by.anthony.todojdbc.validation;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 

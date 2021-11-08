@@ -1,10 +1,10 @@
-package by.anthony.todo.controller;
+package by.anthony.todojdbc.controller;
 
-import by.anthony.todo.domain.ToDo;
-import by.anthony.todo.domain.ToDoBuilder;
-import by.anthony.todo.repository.CommonRepository;
-import by.anthony.todo.validation.ToDoValidationError;
-import by.anthony.todo.validation.ToDoValidationErrorBuilder;
+import by.anthony.todojdbc.domain.ToDo;
+import by.anthony.todojdbc.domain.ToDoBuilder;
+import by.anthony.todojdbc.repository.CommonRepository;
+import by.anthony.todojdbc.validation.ToDoValidationError;
+import by.anthony.todojdbc.validation.ToDoValidationErrorBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

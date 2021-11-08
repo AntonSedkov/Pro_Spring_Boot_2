@@ -1,4 +1,4 @@
-package by.anthony.todo.domain;
+package by.anthony.todojdbc.domain;
 
 import lombok.Data;
 

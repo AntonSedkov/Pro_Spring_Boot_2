@@ -30,7 +30,7 @@ public class ToDoRestClient {
         RequestEntity<Iterable<ToDo>> requestEntity = new RequestEntity<>(
                 HttpMethod.GET, new URI(properties.getUrl() + properties.getBasePath()));
         ResponseEntity<Iterable<ToDo>> response = restTemplate.exchange(requestEntity,
-                new ParameterizedTypeReference<>() {
+                new ParameterizedTypeReference<Iterable<ToDo>>() {
                 });
         if (response.getStatusCode() == HttpStatus.OK) {
             return response.getBody();

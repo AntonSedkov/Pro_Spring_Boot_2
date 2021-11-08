@@ -1,4 +1,4 @@
-package by.anthony.todo.domain;
+package by.anthony.todojdbc.domain;
 
 public class ToDoBuilder {
     private static ToDoBuilder instance = new ToDoBuilder();

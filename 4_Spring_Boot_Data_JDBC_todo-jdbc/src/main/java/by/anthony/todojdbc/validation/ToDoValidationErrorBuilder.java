@@ -1,4 +1,4 @@
-package by.anthony.todo.validation;
+package by.anthony.todojdbc.validation;
 
 import org.springframework.validation.Errors;
 import org.springframework.validation.ObjectError;

@@ -1,4 +1,4 @@
-package by.anthony.todo.repository;
+package by.anthony.todojdbc.repository;
 
 import java.util.Collection;
 
