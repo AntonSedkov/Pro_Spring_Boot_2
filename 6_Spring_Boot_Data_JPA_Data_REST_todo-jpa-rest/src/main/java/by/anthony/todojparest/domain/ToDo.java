@@ -1,4 +1,4 @@
-package by.anthony.todojpa.domain;
+package by.anthony.todojparest.domain;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
